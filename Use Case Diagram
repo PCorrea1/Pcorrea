@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T19:51:23.486Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36" etag="AVhtgPmE3uOVmayWUm1o" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-09T23:00:31.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="ZAt-641MDUvxeZleJ_ka" version="14.3.0" type="github">
   <diagram id="D4L7R-WDCjW6UNq9YQoc" name="Page-1">
     <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-2" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="310" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-3" value="Process Sale&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-3" value="Process Sale&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="130" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-5" value="Handle Returns" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-5" value="Handle Returns" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="240" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-9" value="Cashier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-9" value="Cashier" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="140" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-10" value="Actor&amp;nbsp;&lt;br&gt;(Tax Calculator)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-10" value="Actor&amp;nbsp;&lt;br&gt;(Tax Calculator)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="580" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-11" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-11" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="170" as="sourcePoint" />
             <mxPoint x="400" y="170" as="targetPoint" />
@@ -29,13 +29,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-12" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="XLBRJFa-MyA63rfs0NHQ-5">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-12" value="" style="endArrow=classic;html=1;" parent="1" target="XLBRJFa-MyA63rfs0NHQ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="170" as="sourcePoint" />
             <mxPoint x="450" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="XLBRJFa-MyA63rfs0NHQ-10">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-13" value="" style="endArrow=classic;html=1;" parent="1" target="XLBRJFa-MyA63rfs0NHQ-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="174" as="sourcePoint" />
             <mxPoint x="450" y="230" as="targetPoint" />
@@ -45,14 +45,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-14" value="Manage Accounts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-14" value="Manage Accounts" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="350" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XLBRJFa-MyA63rfs0NHQ-15" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="XLBRJFa-MyA63rfs0NHQ-2" target="XLBRJFa-MyA63rfs0NHQ-14">
+        <mxCell id="XLBRJFa-MyA63rfs0NHQ-15" value="" style="endArrow=classic;html=1;" parent="1" source="XLBRJFa-MyA63rfs0NHQ-2" target="XLBRJFa-MyA63rfs0NHQ-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="280" as="sourcePoint" />
             <mxPoint x="450" y="230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IzPKj8kg_SjSZ06P6CAT-1" value="Primary Actors" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IzPKj8kg_SjSZ06P6CAT-2" value="Supporting Actors&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="90" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
